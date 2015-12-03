@@ -1,0 +1,609 @@
+# depslib dependency file v1.0
+1449042354 source:c:\gitprjs\andrpccpp\cppclient\main.cpp
+	<iostream>
+	<thrift/protocol/TBinaryProtocol.h>
+	<thrift/transport/TSocket.h>
+	<thrift/transport/TTransportUtils.h>
+	"../gen-cpp/Calculator.h"
+
+1439923792 c:\gitprjs\andrpccpp\libcpp\src\thrift\protocol\tbinaryprotocol.h
+	<thrift/protocol/TProtocol.h>
+	<thrift/protocol/TVirtualProtocol.h>
+	<boost/shared_ptr.hpp>
+	<thrift/protocol/TBinaryProtocol.tcc>
+
+1443151345 c:\gitprjs\andrpccpp\libcpp\src\thrift\protocol\tprotocol.h
+	<thrift/transport/TTransport.h>
+	<thrift/protocol/TProtocolException.h>
+	<boost/shared_ptr.hpp>
+	<boost/static_assert.hpp>
+	<netinet/in.h>
+	<sys/types.h>
+	<string>
+	<map>
+	<vector>
+	<climits>
+	<sys/param.h>
+	<boost/config.hpp>
+	<boost/detail/endian.hpp>
+	<byteswap.h>
+	<byteswap.h>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\transport\ttransport.h
+	<thrift/Thrift.h>
+	<boost/shared_ptr.hpp>
+	<thrift/transport/TTransportException.h>
+	<string>
+
+1439923792 c:\gitprjs\andrpccpp\libcpp\src\thrift\thrift.h
+	<thrift/transport/PlatformSocket.h>
+	<thrift/thrift-config.h>
+	<stdio.h>
+	<assert.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<inttypes.h>
+	<string>
+	<map>
+	<list>
+	<set>
+	<vector>
+	<exception>
+	<typeinfo>
+	<boost/utility/enable_if.hpp>
+	<boost/type_traits/is_convertible.hpp>
+	<thrift/TLogging.h>
+	<thrift/TOutput.h>
+
+1448882653 c:\gitprjs\andrpccpp\libcpp\src\thrift\transport\platformsocket.h
+	<errno.h>
+
+1448881792 c:\gitprjs\andrpccpp\libcpp\src\thrift\thrift-config.h
+	<thrift/windows/config.h>
+	<thrift/config.h>
+
+1448881780 c:\gitprjs\andrpccpp\libcpp\src\thrift\windows\config.h
+	<stdint.h>
+	<boost/cstdint.hpp>
+	<thrift/transport/PlatformSocket.h>
+	<thrift/windows/GetTimeOfDay.h>
+	<thrift/windows/Operators.h>
+	<thrift/windows/TWinsockSingleton.h>
+	<thrift/windows/WinFcntl.h>
+	<thrift/windows/SocketPair.h>
+	<Winsock2.h>
+	<ws2tcpip.h>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\windows\gettimeofday.h
+	<thrift/thrift-config.h>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\windows\operators.h
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\windows\twinsocksingleton.h
+	<thrift/thrift-config.h>
+	<boost/noncopyable.hpp>
+	<boost/scoped_ptr.hpp>
+	<boost/thread/once.hpp>
+	<mutex>
+
+1448882068 c:\gitprjs\andrpccpp\libcpp\src\thrift\windows\winfcntl.h
+	<string>
+	<Winsock2.h>
+	<thrift/transport/PlatformSocket.h>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\windows\socketpair.h
+	<Winsock2.h>
+	<thrift/thrift-config.h>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\tlogging.h
+	<thrift/thrift-config.h>
+	<time.h>
+	<stdint.h>
+
+1433277731 c:\gitprjs\andrpccpp\libcpp\src\thrift\toutput.h
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\transport\ttransportexception.h
+	<string>
+	<thrift/Thrift.h>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\protocol\tprotocolexception.h
+	<string>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\protocol\tvirtualprotocol.h
+	<thrift/protocol/TProtocol.h>
+
+1437454488 c:\gitprjs\andrpccpp\libcpp\src\thrift\protocol\tbinaryprotocol.tcc
+	<thrift/protocol/TBinaryProtocol.h>
+	<limits>
+
+1448882808 c:\gitprjs\andrpccpp\libcpp\src\thrift\transport\tsocket.h
+	<string>
+	<thrift/transport/TTransport.h>
+	<thrift/transport/TVirtualTransport.h>
+	<thrift/transport/TServerSocket.h>
+	<thrift/transport/PlatformSocket.h>
+	<arpa/inet.h>
+	<sys/time.h>
+	<netdb.h>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\transport\tvirtualtransport.h
+	<thrift/transport/TTransport.h>
+
+1431483651 c:\gitprjs\andrpccpp\libcpp\src\thrift\transport\tserversocket.h
+	<thrift/transport/TServerTransport.h>
+	<thrift/transport/PlatformSocket.h>
+	<thrift/cxxfunctional.h>
+	<boost/shared_ptr.hpp>
+
+1431483651 c:\gitprjs\andrpccpp\libcpp\src\thrift\transport\tservertransport.h
+	<thrift/transport/TTransport.h>
+	<thrift/transport/TTransportException.h>
+	<boost/shared_ptr.hpp>
+
+1448881474 c:\gitprjs\andrpccpp\libcpp\src\thrift\cxxfunctional.h
+	<utility>
+	<functional>
+	<functional>
+	<tr1/functional>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\transport\ttransportutils.h
+	<cstdlib>
+	<cstring>
+	<string>
+	<algorithm>
+	<thrift/transport/TTransport.h>
+	<thrift/transport/TBufferTransports.h>
+	<thrift/transport/TFileTransport.h>
+
+1433277731 c:\gitprjs\andrpccpp\libcpp\src\thrift\transport\tbuffertransports.h
+	<cstdlib>
+	<cstring>
+	<limits>
+	<boost/scoped_array.hpp>
+	<thrift/transport/TTransport.h>
+	<thrift/transport/TVirtualTransport.h>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\transport\tfiletransport.h
+	<thrift/transport/TTransport.h>
+	<thrift/Thrift.h>
+	<thrift/TProcessor.h>
+	<string>
+	<stdio.h>
+	<boost/scoped_ptr.hpp>
+	<boost/shared_ptr.hpp>
+	<thrift/concurrency/Mutex.h>
+	<thrift/concurrency/Monitor.h>
+	<thrift/concurrency/PlatformThreadFactory.h>
+	<thrift/concurrency/Thread.h>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\tprocessor.h
+	<string>
+	<thrift/protocol/TProtocol.h>
+	<boost/shared_ptr.hpp>
+
+1431483651 c:\gitprjs\andrpccpp\libcpp\src\thrift\concurrency\mutex.h
+	<boost/shared_ptr.hpp>
+	<boost/noncopyable.hpp>
+	<stdint.h>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\concurrency\monitor.h
+	<thrift/concurrency/Exception.h>
+	<thrift/concurrency/Mutex.h>
+	<boost/utility.hpp>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\concurrency\exception.h
+	<exception>
+	<thrift/Thrift.h>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\concurrency\platformthreadfactory.h
+	<thrift/thrift-config.h>
+	<thrift/concurrency/BoostThreadFactory.h>
+	<thrift/concurrency/StdThreadFactory.h>
+	<thrift/concurrency/PosixThreadFactory.h>
+
+1431483651 c:\gitprjs\andrpccpp\libcpp\src\thrift\concurrency\boostthreadfactory.h
+	<thrift/concurrency/Thread.h>
+	<boost/shared_ptr.hpp>
+
+1431483651 c:\gitprjs\andrpccpp\libcpp\src\thrift\concurrency\thread.h
+	<stdint.h>
+	<boost/shared_ptr.hpp>
+	<boost/weak_ptr.hpp>
+	<thrift/thrift-config.h>
+	<boost/thread.hpp>
+	<thread>
+	<pthread.h>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\concurrency\stdthreadfactory.h
+	<thrift/concurrency/Thread.h>
+	<boost/shared_ptr.hpp>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\concurrency\posixthreadfactory.h
+	<thrift/concurrency/Thread.h>
+	<boost/shared_ptr.hpp>
+
+1449042185 c:\gitprjs\andrpccpp\gen-cpp\calculator.h
+	<thrift/TDispatchProcessor.h>
+	<thrift/async/TConcurrentClientSyncInfo.h>
+	"tutorial_types.h"
+	"SharedService.h"
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\tdispatchprocessor.h
+	<thrift/TProcessor.h>
+
+1437454488 c:\gitprjs\andrpccpp\libcpp\src\thrift\async\tconcurrentclientsyncinfo.h
+	<thrift/protocol/TProtocol.h>
+	<thrift/concurrency/Mutex.h>
+	<thrift/concurrency/Monitor.h>
+	<boost/shared_ptr.hpp>
+	<vector>
+	<string>
+	<map>
+
+1449042185 c:\gitprjs\andrpccpp\gen-cpp\tutorial_types.h
+	<iosfwd>
+	<thrift/Thrift.h>
+	<thrift/TApplicationException.h>
+	<thrift/protocol/TProtocol.h>
+	<thrift/transport/TTransport.h>
+	<thrift/cxxfunctional.h>
+	"shared_types.h"
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\tapplicationexception.h
+	<thrift/Thrift.h>
+
+1449042185 c:\gitprjs\andrpccpp\gen-cpp\shared_types.h
+	<iosfwd>
+	<thrift/Thrift.h>
+	<thrift/TApplicationException.h>
+	<thrift/protocol/TProtocol.h>
+	<thrift/transport/TTransport.h>
+	<thrift/cxxfunctional.h>
+
+1449042185 c:\gitprjs\andrpccpp\gen-cpp\sharedservice.h
+	<thrift/TDispatchProcessor.h>
+	<thrift/async/TConcurrentClientSyncInfo.h>
+	"shared_types.h"
+
+1449042185 source:c:\gitprjs\andrpccpp\gen-cpp\calculator.cpp
+	"Calculator.h"
+
+1449042185 source:c:\gitprjs\andrpccpp\gen-cpp\shared_constants.cpp
+	"shared_constants.h"
+
+1449042185 c:\gitprjs\andrpccpp\gen-cpp\shared_constants.h
+	"shared_types.h"
+
+1449042185 source:c:\gitprjs\andrpccpp\gen-cpp\shared_types.cpp
+	"shared_types.h"
+	<algorithm>
+	<ostream>
+	<thrift/TToString.h>
+
+1422237983 c:\gitprjs\andrpccpp\libcpp\src\thrift\ttostring.h
+	<boost/lexical_cast.hpp>
+	<vector>
+	<map>
+	<set>
+	<string>
+	<sstream>
+
+1449042185 source:c:\gitprjs\andrpccpp\gen-cpp\sharedservice.cpp
+	"SharedService.h"
+
+1449042185 source:c:\gitprjs\andrpccpp\gen-cpp\tutorial_constants.cpp
+	"tutorial_constants.h"
+
+1449042185 c:\gitprjs\andrpccpp\gen-cpp\tutorial_constants.h
+	"tutorial_types.h"
+
+1449042185 source:c:\gitprjs\andrpccpp\gen-cpp\tutorial_types.cpp
+	"tutorial_types.h"
+	<algorithm>
+	<ostream>
+	<thrift/TToString.h>
+
+1449059227 source:d:\githubprjs\andrpccpp\gen-cpp\calculator.cpp
+	"Calculator.h"
+
+1449149295 d:\githubprjs\andrpccpp\gen-cpp\calculator.h
+	<thrift/TDispatchProcessor.h>
+	<thrift/async/TConcurrentClientSyncInfo.h>
+	"tutorial_types.h"
+	"SharedService.h"
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\tdispatchprocessor.h
+	<thrift/TProcessor.h>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\tprocessor.h
+	<string>
+	<thrift/protocol/TProtocol.h>
+	<boost/shared_ptr.hpp>
+
+1443151345 d:\githubprjs\andrpccpp\libcpp\src\thrift\protocol\tprotocol.h
+	<thrift/transport/TTransport.h>
+	<thrift/protocol/TProtocolException.h>
+	<boost/shared_ptr.hpp>
+	<boost/static_assert.hpp>
+	<netinet/in.h>
+	<sys/types.h>
+	<string>
+	<map>
+	<vector>
+	<climits>
+	<sys/param.h>
+	<boost/config.hpp>
+	<boost/detail/endian.hpp>
+	<byteswap.h>
+	<byteswap.h>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\transport\ttransport.h
+	<thrift/Thrift.h>
+	<boost/shared_ptr.hpp>
+	<thrift/transport/TTransportException.h>
+	<string>
+
+1439923792 d:\githubprjs\andrpccpp\libcpp\src\thrift\thrift.h
+	<thrift/transport/PlatformSocket.h>
+	<thrift/thrift-config.h>
+	<stdio.h>
+	<assert.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<inttypes.h>
+	<string>
+	<map>
+	<list>
+	<set>
+	<vector>
+	<exception>
+	<typeinfo>
+	<boost/utility/enable_if.hpp>
+	<boost/type_traits/is_convertible.hpp>
+	<thrift/TLogging.h>
+	<thrift/TOutput.h>
+
+1448882653 d:\githubprjs\andrpccpp\libcpp\src\thrift\transport\platformsocket.h
+	<errno.h>
+
+1448881792 d:\githubprjs\andrpccpp\libcpp\src\thrift\thrift-config.h
+	<thrift/windows/config.h>
+	<thrift/config.h>
+
+1448881780 d:\githubprjs\andrpccpp\libcpp\src\thrift\windows\config.h
+	<stdint.h>
+	<boost/cstdint.hpp>
+	<thrift/transport/PlatformSocket.h>
+	<thrift/windows/GetTimeOfDay.h>
+	<thrift/windows/Operators.h>
+	<thrift/windows/TWinsockSingleton.h>
+	<thrift/windows/WinFcntl.h>
+	<thrift/windows/SocketPair.h>
+	<Winsock2.h>
+	<ws2tcpip.h>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\windows\gettimeofday.h
+	<thrift/thrift-config.h>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\windows\operators.h
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\windows\twinsocksingleton.h
+	<thrift/thrift-config.h>
+	<boost/noncopyable.hpp>
+	<boost/scoped_ptr.hpp>
+	<boost/thread/once.hpp>
+	<mutex>
+
+1448882068 d:\githubprjs\andrpccpp\libcpp\src\thrift\windows\winfcntl.h
+	<string>
+	<Winsock2.h>
+	<thrift/transport/PlatformSocket.h>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\windows\socketpair.h
+	<Winsock2.h>
+	<thrift/thrift-config.h>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\tlogging.h
+	<thrift/thrift-config.h>
+	<time.h>
+	<stdint.h>
+
+1433277731 d:\githubprjs\andrpccpp\libcpp\src\thrift\toutput.h
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\transport\ttransportexception.h
+	<string>
+	<thrift/Thrift.h>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\protocol\tprotocolexception.h
+	<string>
+
+1437454488 d:\githubprjs\andrpccpp\libcpp\src\thrift\async\tconcurrentclientsyncinfo.h
+	<thrift/protocol/TProtocol.h>
+	<thrift/concurrency/Mutex.h>
+	<thrift/concurrency/Monitor.h>
+	<boost/shared_ptr.hpp>
+	<vector>
+	<string>
+	<map>
+
+1431483651 d:\githubprjs\andrpccpp\libcpp\src\thrift\concurrency\mutex.h
+	<boost/shared_ptr.hpp>
+	<boost/noncopyable.hpp>
+	<stdint.h>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\concurrency\monitor.h
+	<thrift/concurrency/Exception.h>
+	<thrift/concurrency/Mutex.h>
+	<boost/utility.hpp>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\concurrency\exception.h
+	<exception>
+	<thrift/Thrift.h>
+
+1449059227 d:\githubprjs\andrpccpp\gen-cpp\tutorial_types.h
+	<iosfwd>
+	<thrift/Thrift.h>
+	<thrift/TApplicationException.h>
+	<thrift/protocol/TProtocol.h>
+	<thrift/transport/TTransport.h>
+	<thrift/cxxfunctional.h>
+	"shared_types.h"
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\tapplicationexception.h
+	<thrift/Thrift.h>
+
+1448881474 d:\githubprjs\andrpccpp\libcpp\src\thrift\cxxfunctional.h
+	<utility>
+	<functional>
+	<functional>
+	<tr1/functional>
+
+1449059227 d:\githubprjs\andrpccpp\gen-cpp\shared_types.h
+	<iosfwd>
+	<thrift/Thrift.h>
+	<thrift/TApplicationException.h>
+	<thrift/protocol/TProtocol.h>
+	<thrift/transport/TTransport.h>
+	<thrift/cxxfunctional.h>
+
+1449149295 d:\githubprjs\andrpccpp\gen-cpp\sharedservice.h
+	<thrift/TDispatchProcessor.h>
+	<thrift/async/TConcurrentClientSyncInfo.h>
+	"shared_types.h"
+
+1449059227 source:d:\githubprjs\andrpccpp\gen-cpp\shared_constants.cpp
+	"shared_constants.h"
+
+1449059227 d:\githubprjs\andrpccpp\gen-cpp\shared_constants.h
+	"shared_types.h"
+
+1449059227 source:d:\githubprjs\andrpccpp\gen-cpp\shared_types.cpp
+	"shared_types.h"
+	<algorithm>
+	<ostream>
+	<thrift/TToString.h>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\ttostring.h
+	<boost/lexical_cast.hpp>
+	<vector>
+	<map>
+	<set>
+	<string>
+	<sstream>
+
+1449059227 source:d:\githubprjs\andrpccpp\gen-cpp\sharedservice.cpp
+	"SharedService.h"
+
+1449059227 source:d:\githubprjs\andrpccpp\gen-cpp\tutorial_constants.cpp
+	"tutorial_constants.h"
+
+1449059227 d:\githubprjs\andrpccpp\gen-cpp\tutorial_constants.h
+	"tutorial_types.h"
+
+1449059227 source:d:\githubprjs\andrpccpp\gen-cpp\tutorial_types.cpp
+	"tutorial_types.h"
+	<algorithm>
+	<ostream>
+	<thrift/TToString.h>
+
+1449149822 source:d:\githubprjs\andrpccpp\cppclient\main.cpp
+	<iostream>
+	<thrift/protocol/TBinaryProtocol.h>
+	<thrift/transport/TSocket.h>
+	<thrift/transport/TTransportUtils.h>
+	"../gen-cpp/Calculator.h"
+
+1439923792 d:\githubprjs\andrpccpp\libcpp\src\thrift\protocol\tbinaryprotocol.h
+	<thrift/protocol/TProtocol.h>
+	<thrift/protocol/TVirtualProtocol.h>
+	<boost/shared_ptr.hpp>
+	<thrift/protocol/TBinaryProtocol.tcc>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\protocol\tvirtualprotocol.h
+	<thrift/protocol/TProtocol.h>
+
+1437454488 d:\githubprjs\andrpccpp\libcpp\src\thrift\protocol\tbinaryprotocol.tcc
+	<thrift/protocol/TBinaryProtocol.h>
+	<limits>
+
+1448882808 d:\githubprjs\andrpccpp\libcpp\src\thrift\transport\tsocket.h
+	<string>
+	<thrift/transport/TTransport.h>
+	<thrift/transport/TVirtualTransport.h>
+	<thrift/transport/TServerSocket.h>
+	<thrift/transport/PlatformSocket.h>
+	<arpa/inet.h>
+	<sys/time.h>
+	<netdb.h>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\transport\tvirtualtransport.h
+	<thrift/transport/TTransport.h>
+
+1431483651 d:\githubprjs\andrpccpp\libcpp\src\thrift\transport\tserversocket.h
+	<thrift/transport/TServerTransport.h>
+	<thrift/transport/PlatformSocket.h>
+	<thrift/cxxfunctional.h>
+	<boost/shared_ptr.hpp>
+
+1431483651 d:\githubprjs\andrpccpp\libcpp\src\thrift\transport\tservertransport.h
+	<thrift/transport/TTransport.h>
+	<thrift/transport/TTransportException.h>
+	<boost/shared_ptr.hpp>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\transport\ttransportutils.h
+	<cstdlib>
+	<cstring>
+	<string>
+	<algorithm>
+	<thrift/transport/TTransport.h>
+	<thrift/transport/TBufferTransports.h>
+	<thrift/transport/TFileTransport.h>
+
+1433277731 d:\githubprjs\andrpccpp\libcpp\src\thrift\transport\tbuffertransports.h
+	<cstdlib>
+	<cstring>
+	<limits>
+	<boost/scoped_array.hpp>
+	<thrift/transport/TTransport.h>
+	<thrift/transport/TVirtualTransport.h>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\transport\tfiletransport.h
+	<thrift/transport/TTransport.h>
+	<thrift/Thrift.h>
+	<thrift/TProcessor.h>
+	<string>
+	<stdio.h>
+	<boost/scoped_ptr.hpp>
+	<boost/shared_ptr.hpp>
+	<thrift/concurrency/Mutex.h>
+	<thrift/concurrency/Monitor.h>
+	<thrift/concurrency/PlatformThreadFactory.h>
+	<thrift/concurrency/Thread.h>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\concurrency\platformthreadfactory.h
+	<thrift/thrift-config.h>
+	<thrift/concurrency/BoostThreadFactory.h>
+	<thrift/concurrency/StdThreadFactory.h>
+	<thrift/concurrency/PosixThreadFactory.h>
+
+1431483651 d:\githubprjs\andrpccpp\libcpp\src\thrift\concurrency\boostthreadfactory.h
+	<thrift/concurrency/Thread.h>
+	<boost/shared_ptr.hpp>
+
+1431483651 d:\githubprjs\andrpccpp\libcpp\src\thrift\concurrency\thread.h
+	<stdint.h>
+	<boost/shared_ptr.hpp>
+	<boost/weak_ptr.hpp>
+	<thrift/thrift-config.h>
+	<boost/thread.hpp>
+	<thread>
+	<pthread.h>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\concurrency\stdthreadfactory.h
+	<thrift/concurrency/Thread.h>
+	<boost/shared_ptr.hpp>
+
+1422237983 d:\githubprjs\andrpccpp\libcpp\src\thrift\concurrency\posixthreadfactory.h
+	<thrift/concurrency/Thread.h>
+	<boost/shared_ptr.hpp>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cppserver" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/cppserver" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/cppserver" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-D_MINGW" />
+			<Add option="-DUSE_BOOST_THREAD" />
+			<Add directory="../libcpp/src" />
+		</Compiler>
+		<Linker>
+			<Add library="..\mingw\lib\libthrift.a" />
+			<Add library="..\mingw\lib\libthriftnb.a" />
+			<Add library="..\..\..\msys32\mingw32\i686-w64-mingw32\lib\libws2_32.a" />
+			<Add library="..\..\..\msys32\mingw32\lib\libboost_system-mt.a" />
+			<Add library="..\..\..\msys32\mingw32\lib\libboost_thread-mt.a" />
+			<Add library="..\..\..\msys32\mingw32\lib\libevent.dll.a" />
+		</Linker>
+		<Unit filename="../gen-cpp/Calculator.cpp" />
+		<Unit filename="../gen-cpp/Calculator.h" />
+		<Unit filename="../gen-cpp/SharedService.cpp" />
+		<Unit filename="../gen-cpp/SharedService.h" />
+		<Unit filename="../gen-cpp/shared_constants.cpp" />
+		<Unit filename="../gen-cpp/shared_constants.h" />
+		<Unit filename="../gen-cpp/shared_types.cpp" />
+		<Unit filename="../gen-cpp/shared_types.h" />
+		<Unit filename="../gen-cpp/tutorial_constants.cpp" />
+		<Unit filename="../gen-cpp/tutorial_constants.h" />
+		<Unit filename="../gen-cpp/tutorial_types.cpp" />
+		<Unit filename="../gen-cpp/tutorial_types.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
